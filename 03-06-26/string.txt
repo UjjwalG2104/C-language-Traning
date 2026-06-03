@@ -1,0 +1,8 @@
+char str1[ = "Hello";
+// Implicitly adds '\0'
+
+;A string is a 1D array of characters, terminated with a null character'\0'.
+
+I
+
+char str2[6] = {'H', 'e', '1', 'I', 'o', '\0'); // Explicit declaration
