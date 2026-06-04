@@ -1,0 +1,11 @@
+A function is a block of code that performs a specific task.
+It's a modular unit designed to make the program reusable, readable, and
+maintainable.
+
+Avoid code repetition (DRY: Don't Repeat Yourself)
+> Divide complex programs into smaller, manageable parts
+>Improves readability and testing
+> Promotes reusability (you can use the same function again and again)
+return_type function_name(parameter1, parameter2, ... ) {
+// Body of the function
+return value;
