@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int n, i;
+
+    scanf("%d", &n);
+    int arr[n];
+
+    for(i = 0; i < n; i++)
+        scanf("%d", &arr[i]);
+
+    int largest = arr[0];
+    int second = arr[0];
+
+    for(i = 1; i < n; i++) {
+        if(arr[i] > largest) {
+            second = largest;
+            largest = arr[i];
+        }
+    }
+
+    printf("Second Largest = %d", second);
+
+    return 0;
+}
