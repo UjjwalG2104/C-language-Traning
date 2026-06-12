@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int n = 5;
+    int i, j;
+
+    for(i = n - 1; i >= 0; i--)
+    {
+        for(j = n - 1; j >= i; j--)
+        {
+            printf("%c ", j + 65);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+//E 
+//E D 
+//E D C 
+//E D C B 
+//E D C B A 
