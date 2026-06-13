@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int n = 5;
+    int i, j;
+
+    for(i = 1; i <= n; i++)
+    {
+        for(j = n - i; j >= 0; j--)
+        {
+            printf("%c", j + 65);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+// EDCBA
+// DCBA
+// CBA
+// BA
+// A
